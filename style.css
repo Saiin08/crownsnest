@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: "FromtheWoods";
+  src: url("graphics/FromtheWoods-Regular.woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-image: url(graphics/bg.jpg);
+  background-repeat: repeat-y;
+  background-size: 100% 300px;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: "FromtheWoods", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 80px;
+  letter-spacing: 5px;
+
+}
+
+.container {
+  width: 750px;
+  margin: auto;
+}
+
+.container .intro {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.circle {
+  background-color: rgb(85, 112, 37);
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  padding: 10px 35px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.circle__middle {
+  position: relative;
+  left: 320px;
+  margin-top: -120px;
+}
+
+.circle__bottom {
+  margin-top: -120px;
+}
+
+.footer {
+  margin-top: 50px;
+  padding: 36px 0;
+  background-color: #2d4823;
+  text-align: center;
+}
+
+.signup {
+  width: 750px;
+  margin: auto;
+}
+
+a {
+  color: rgb(219, 219, 219);
+}
